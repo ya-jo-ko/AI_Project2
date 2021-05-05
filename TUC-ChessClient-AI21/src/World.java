@@ -21,7 +21,7 @@ public class World
 	private int algo = 4; 
 	// 0 is minimax, 1 is minimax with a-b, 2 is forward pruning, 
 	// 3 is minimax with singular extensions, 4 is Monte Carlo Tree Search
-	private boolean premadeMoves = false; // choose some premade moves at the start of game
+	private boolean premadeMoves = true; // choose some premade moves at the start of game
 	private String checker; // check if moves are repeated
 	private double endTime = 6000; // maximum time allowed per move
 	private int algoDepth = 5; // depth for minimax
